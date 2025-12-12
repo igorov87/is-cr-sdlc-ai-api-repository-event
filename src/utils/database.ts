@@ -19,7 +19,7 @@ export const dataSource = new DataSource({
   host: PROMETHEUS_HOST,
   port: PROMETHEUS_PORT ? Number(PROMETHEUS_PORT) : 5432,
   username: PROMETHEUS_USER,
-  password: PROMETHEUS_PASSWORD,
+  password: "Pssd1234$98",
   database: PROMETHEUS_DATABASE,
   entities: [PrValidationModel],
   synchronize: false,
