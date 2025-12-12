@@ -29,6 +29,8 @@ export class PrExecutionController {
       const payload = request.payload as PrExecutionEntity;
       getLogger(ctx).trace(`Payload: ${JSON.stringify(payload)}`);
 
+      // comentario de prueba
+
       // Validaciones básicas
       if (!payload) {
         getLogger(ctx).error(`Payload es requerido`);
