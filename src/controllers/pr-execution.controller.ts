@@ -5,7 +5,6 @@ import { getLogger } from '../utils/logger';
 import { PrExecutionService } from '../services/pr-execution.service';
 import { TopicPublisherPubSub } from '../publisher/impl/topic-publisher-pubsub';
 import { PGValidationRepository } from '../repository/impl/pg-validation-repository';
-import { getErrorMessage } from '../utils/error-handler';
 
 export class PrExecutionController {
   private service: PrExecutionService;
